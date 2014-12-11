@@ -1,0 +1,1 @@
+exports.eachCore = require('./lib/each_core');
