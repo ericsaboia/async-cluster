@@ -13,7 +13,7 @@ To install the most recent release from npm, run:
 ```javascript
 var ac = require('async-cluster');
 var cpuCores = require('os').cpus().length;
-var workerPath = __dirname+'/worker';
+var worker = __dirname+'/worker';
 
-ac.eachCore(channels, cpuCores, workerPath, callback);
+ac.eachCore(list, cpuCores, worker, callback);
 ```
