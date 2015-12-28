@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ericsaboia/async-cluster/issues"
   },
-  "homepage": "https://github.com/ericsaboia/async-cluster"
+  "homepage": "https://github.com/ericsaboia/async-cluster",
+  "devDependencies": {
+    "async": "^1.5.0"
+  }
 }
